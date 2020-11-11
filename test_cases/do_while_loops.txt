@@ -1,0 +1,15 @@
+int i=0;
+do {
+    int j=0;
+    do
+    {
+        int k=0;
+        do
+        {
+            print("(", i, ",", j, ",", k, ")");
+            k++;
+        } while(k<2);
+        j++;
+    } while (j<2);
+    i++;
+} while (i<2);
